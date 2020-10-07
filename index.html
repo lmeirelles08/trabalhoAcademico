@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+        <title>AV1 - Estácio Juiz de Fora</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Estácio.">
+	    <meta name="keywords" content="faculdade,educação,estudos,juiz de fora">
+        <meta name="author" content="Luan Meirelles">
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		
+     </head>
+     <body>
+	 
+        <header id="titulo"> Avaliação de aprendizado 1 </header>
+
+        <header>
+	<div class="container">
+		<div><div class="logo-1"></div><!--logo-1--></div>
+		<div><div class="logo-2"></div><!--logo-2--></div>
+		<div class="clear"></div><!--clear-->
+	</div><!--container-->
+</header>
+     
+    	<nav>
+            <ul>
+              <li><a href="https://portal.estacio.br/unidades/centro-universit%C3%A1rio-est%C3%A1cio-juiz-de-fora/">Estácio de Sá</a></li>
+              
+            </ul>
+        </nav>
+		
+        <section>
+		
+            <header> <h2>Quadro de Horários <b>Luan</b></h2> </header>
+            
+			<article>
+			
+	        <table border="1">
+    <tr>
+        <td>X</td>
+        <td>Seg</td>
+        <td>Ter</td>
+        <td>Qua</td>
+        <td>Qui</td>
+        <td>Sex</td>
+    </tr>
+    <tr>
+        <td>18:55 - 19:45</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>19:45 - 20:35</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>Intervalo</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>20:50 - 21:40</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>21:40 - 22:30</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+</table>
+            
+            </article>
+			 
+            <footer> Luan Meirelles da Silva <b>202001541349</b> </footer>
+			
+        </section>
+		
+		<section>
+			
+			<fieldset>
+				<legend><!-- Título do Formulário --></legend>
+
+
+
+<label for="curso"><b>Lista das disciplinas:</b></label> 
+            <select name="curso">
+                    <option value="">Selecione a Disciplina matriculada...</option>
+                    <option value="ADM">PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO EM PYTHON</option>
+                    <option value="ADS">DESENV. WEB EM HTML5, CSS, JAVASCRIPT E PHP</option>
+                    <option value="CC">BANCO DE DADOS</option>
+                   </select>
+
+<BR><BR>
+
+
+				<form action="#" method="POST" autocomplete="off">
+            <label for="nome" class="obrigatorio"><b>Nome do Professor:</b></label> 
+            <input type="text" id="nome" name="nome" required="nome" size="50" maxlength="100"> <BR><BR>
+
+
+            <label for="hora_da_aula"><b>Horario da aula:</b></label> 
+             <input type="time" name="hora_da_aula" required="hora_da_aula" id="hora_da_aula"> 
+
+           
+            <BR><BR>
+
+            <label for="data_aula"><b>Último dia que assistiu a aula:</b></label> 
+            <input type="date" 
+                   id="data_aula"
+                   name="data_aula" required="data_aula"> 
+                    <BR><BR>
+    
+            <label for="alunos" class="obrigatorio">Número de alunos da turma:</label> 
+            <input type="number" 
+                    id="alunos"
+                    min="0"
+                    max="100" 
+                    name="alunos"
+                    required> <BR><BR>
+  
+
+                 
+            
+            <label>Nota para a Disciplina:</label> <input type="radio" 
+                         name="nota" 
+                         id="um"    
+                         value="M"> <label for="um">1</label>
+                  <input type="radio" name="nota" id="dois"     value="F" style="width: 30px;"> <label for="dois">2</label>
+                  <input type="radio" name="nota" id="tres" value="N" style="width: 30px;"> <label for="tres">3</label>
+                  <input type="radio" name="nota" id="quatro" value="N" style="width: 30px;"> <label for="quatro">4</label>
+                  <input type="radio" name="nota" id="cinco" value="N" style="width: 30px;"> <label for="cinco">5</label>
+            
+            
+
+
+
+            <BR><BR>
+
+            <label>Provas Realizas:</label> <input type="checkbox" name="periodo" value="1" id="p1"> <label for="p1">Av1</label>
+                                  <input type="checkbox" name="periodo" value="2" id="p2"> <label for="p2">Av2</label>
+                                  <input type="checkbox" name="periodo" value="3" id="p3"> <label for="p3">Av3</label>
+                                 
+            <BR><BR>
+            
+            <label for="comentario">Descreva sua experiência com a disciplina:</label> <BR>
+            <textarea name="comentario" id="comentario" cols="50" rows="10"></textarea>
+
+            <BR><BR>
+            <button> Enviar </button>
+        </form>				
+			
+			</fieldset>		
+		
+        </section>
+		
+		
+		
+        <footer id="nome_professor"> <i>Prof. Bruno Zonovelli</i> </footer>
+     </body>
+  </html>
